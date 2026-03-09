@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "caas-widget-poc dev",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:/Users/tedmo/Code/caas-widget-poc/start-dev.mjs"],
+      "port": 5173
+    },
+    {
+      "name": "caas-widget-poc preview",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "preview"],
+      "port": 4173
+    }
+  ]
+}

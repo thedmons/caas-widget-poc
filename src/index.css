@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+}
+
+@layer components {
+  .caas-widget {
+    @apply bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden;
+  }
+  .step-card {
+    @apply border-2 rounded-lg p-4 cursor-pointer transition-all duration-150;
+    @apply border-slate-200 hover:border-blue-400 hover:bg-blue-50;
+  }
+  .step-card.selected {
+    @apply border-blue-600 bg-blue-50;
+  }
+}
