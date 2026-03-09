@@ -9,6 +9,7 @@
 | **Stack** | React, Vite, Tailwind CSS |
 | **Built with** | Claude (Anthropic) as coding collaborator |
 | **Status** | Prototype — not production |
+| **Live demo** | [caas-widget-poc.vercel.app](https://caas-widget-poc.vercel.app/) |
 | **Built by** | Thomas Edmons — Digital Product Owner |
 | **Related work** | [PRD: Installation Services Lead Capture Widget](https://github.com/thedmons/prd-installation-services-widget) · [API Spec: CAAS Lead Capture](https://github.com/thedmons/prd-installation-services-widget/blob/main/api-spec-caas-installation-services.md) |
 
@@ -63,6 +64,13 @@ This is the same workflow I'd use to direct an engineering team — except the f
 
 ---
 
+## Live Demo
+
+▶️ **[caas-widget-poc.vercel.app](https://caas-widget-poc.vercel.app/)**
+
+No setup required — runs in the browser.
+
+---
 ## Running Locally
 ```bash
 npm install
